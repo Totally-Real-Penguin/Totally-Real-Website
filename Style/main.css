@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+:root {
+    --main-background-color: #6A5ACDFF; /*slate blue */
+    --main-text-color: #F8F8FFFF; /*ghost white*/
+
+    --nav-bar-background-color: #483D8BFF; /*dark slate blue*/
+    --nav-bar-background-color-hover: #574BA8FF; /*custom color*/
+    --nav-bar-background-color-active: #F08080FF; /*light coral*/
+    --nav-bar-text-color: #F8F8FFFF; /*ghost white*/
+
+    --button-background-color: #483D8BFF; /*dark slate blue*/
+    --button-background-color-hover: #574BA8FF; /*custom color*/
+    --button-background-color-active: #F08080FF; /*light coral*/
+    --button-text-color: #F8F8FFFF; /*ghost white*/
+
+    --highlight-background-color: #F08080FF;  /*light coral*/
+    --highlight-text-color: #F8F8FFFF; /*ghost white*/
+
+    --img-background-color: #00000000; /*transparent*/
+
+    --link-text-color-visited: #FF7F50FF; /*coral*/
+    --link-text-color-unvisited: #F08080FF; /*light coral*/
+}
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+}
+
+::selection {
+    background: var(--highlight-background-color);
+    color: var(--highlight-text-color);
+}
+
+::-moz-selection {
+    background: var(--highlight-background-color);
+    color: var(--highlight-text-color);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--nav-bar-background-color);
+    border-radius: 8px;
+}
+  
+li {
+    background-color: var(--nav-bar-background-color);
+    float: left;
+}
+  
+li a {
+    background-color: inherit;
+    display: block;
+    color:  var(--nav-bar-text-color) !important;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: var(--nav-bar-background-color-hover); 
+}
+
+li a.active {
+    background-color: var(--nav-bar-background-color-active) !important ;  /*!important cause im lazy*/
+}
+
+.secret {
+    color: var(--main-background-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-text-color-visited);
+}
+
+a:link {
+    color: var(--link-text-color-visited);
+}
+
+iframe {
+    border-radius: 8px;
+    width: 55vw;
+    height: 65vh;
+}
+
+button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    font-family: inherit;
+    border: none;
+    padding: 16px 32px;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: var(--button-background-color-hover);
+}
+
+button.active {
+    background-color: var(--button-background-color-active);
+}
+
+div.secret_wow {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: var(--img-background-color);
+}
+
+div.icons {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 48px;
+    width: auto;
+    padding: 8px;
+    background-color: var(--img-background-color);
+}
+
+a.icons {
+    background-color: inherit;
+    padding: 4px;
+}
+
+img.secret_wow {
+    opacity: 05%;
+    height: 18px;
+    width: 18px;
+    padding: 8px;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+    background-color: inherit;
+}
