@@ -3,6 +3,7 @@
 :root {
     --main-background-color: #6A5ACDFF; /*slate blue */
     --main-text-color: #F8F8FFFF; /*ghost white*/
+    --main-font-family:  'Silkscreen', cursive;
 
     --nav-bar-background-color: #483D8BFF; /*dark slate blue*/
     --nav-bar-background-color-hover: #574BA8FF; /*custom color*/
@@ -26,7 +27,7 @@
 body {
     background-color: var(--main-background-color);
     color: var(--main-text-color);
-    font-family: 'Silkscreen', cursive;
+    font-family: var(--main-font-family);
     text-align: center;
 }
 
@@ -143,5 +144,6 @@ img {
     background-color: inherit;
     max-width: 48px;
     min-width: 20px;
+    width: 100%;
     height: auto;
 }
