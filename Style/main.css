@@ -15,13 +15,13 @@
     --button-background-color-active: #fe1d3fff; 
     --button-text-color: #f8f8ffff;
 
-    --highlight-background-color: #fe1d3f;
+    --highlight-background-color: #fe1d3fff;
     --highlight-text-color: #f8f8ffff;
 
     --img-background-color: #00000000; /*transparent*/
 
-    --link-text-color-visited: #fe1d3f;
-    --link-text-color-unvisited: #fe1d3f; /*light coral*/
+    --link-text-color-visited: #fe1d3fff;
+    --link-text-color-unvisited: #fe1d3fff; /*light coral*/
 }
 
 body {
