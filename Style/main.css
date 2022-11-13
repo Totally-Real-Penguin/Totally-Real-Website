@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
 :root {
-    --main-background-color: #6A5ACDFF; /*slate blue */
-    --main-text-color: #F8F8FFFF; /*ghost white*/
+    --main-background-color: #2a2a2aff; 
+    --main-text-color: #f8f8ffff;
     --main-font-family:  'Silkscreen', cursive;
 
-    --nav-bar-background-color: #483D8BFF; /*dark slate blue*/
-    --nav-bar-background-color-hover: #574BA8FF; /*custom color*/
-    --nav-bar-background-color-active: #F08080FF; /*light coral*/
-    --nav-bar-text-color: #F8F8FFFF; /*ghost white*/
+    --nav-bar-background-color: #202020ff; 
+    --nav-bar-background-color-hover: #181818ff; 
+    --nav-bar-background-color-active: #fe1d3fff; 
+    --nav-bar-text-color: #f8f8ffff;
 
-    --button-background-color: #483D8BFF; /*dark slate blue*/
-    --button-background-color-hover: #574BA8FF; /*custom color*/
-    --button-background-color-active: #F08080FF; /*light coral*/
-    --button-text-color: #F8F8FFFF; /*ghost white*/
+    --button-background-color: #202020ff; 
+    --button-background-color-hover: #181818ff;
+    --button-background-color-active: #fe1d3fff; 
+    --button-text-color: #f8f8ffff;
 
-    --highlight-background-color: #F08080FF;  /*light coral*/
-    --highlight-text-color: #F8F8FFFF; /*ghost white*/
+    --highlight-background-color: #fe1d3f;
+    --highlight-text-color: #f8f8ffff;
 
     --img-background-color: #00000000; /*transparent*/
 
-    --link-text-color-visited: #FF7F50FF; /*coral*/
-    --link-text-color-unvisited: #F08080FF; /*light coral*/
+    --link-text-color-visited: #fe1d3f;
+    --link-text-color-unvisited: #fe1d3f; /*light coral*/
 }
 
 body {
